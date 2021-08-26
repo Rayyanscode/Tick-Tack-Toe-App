@@ -1,0 +1,54 @@
+.one{
+    background-color: black;
+}
+#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8,#div9{
+    border: 1px solid whitesmoke;
+    height: 200px;
+    width: 200px;
+    float: left;
+    font-size: 10em;
+    font-family: 'Times New Roman', Times, serif;  ;
+    text-align: center;
+}
+
+#div1,#div4,#div7{
+    clear: left;
+    border-left: none ;
+}
+
+#main{
+    margin-left: 325px;
+    margin-top: 50px;
+    color: red;
+}
+
+#div3,#div6,#div9{
+    border-right: none ;
+}
+
+#div1,#div2,#div3{
+    border-top: none ;
+}
+
+#div7,#div8,#div9{
+    border-bottom: none ;
+}
+
+.reset-btn{
+    margin-top: 600px;
+    margin-left: -320px;
+    border: 3px solid red;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+
+/* @media only screen and (max-width:600px){
+
+ #div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8,#div9{
+
+    height: -300px;
+
+    }
+} */
